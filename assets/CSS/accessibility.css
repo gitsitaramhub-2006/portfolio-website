@@ -1,0 +1,27 @@
+.skip-link{
+position:absolute;
+left:-9999px;
+top:auto;
+}
+
+.skip-link:focus{
+left:10px;
+top:10px;
+background:white;
+color:black;
+padding:10px;
+z-index:999;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus{
+outline:3px solid #ffbf47;
+outline-offset:3px;
+}
+
+[aria-current="page"]{
+font-weight:bold;
+text-decoration:underline;
+}
